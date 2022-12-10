@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
 
 /**
  * main - Entry point
@@ -9,6 +7,8 @@ using namespace std;
  */
 int main(void)
 {
-	cout << "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n" << ;
+	char a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	putchar(a);
 	return (1);
 }
